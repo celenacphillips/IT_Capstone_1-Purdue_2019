@@ -1,0 +1,14 @@
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\bin\Debug\IT499_Project.exe.config
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\bin\Debug\IT499_Project.exe
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\bin\Debug\IT499_Project.pdb
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.csprojAssemblyReference.cache
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.Properties.Resources.resources
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.csproj.GenerateResource.cache
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.csproj.CoreCompileInputs.cache
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.exe
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.pdb
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.form1.resources
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\bin\Debug\IT499_Project.exe.manifest
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\bin\Debug\IT499_Project.application
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.exe.manifest
+C:\Users\celen\source\repos\IT499_Project\IT499_Project\obj\Debug\IT499_Project.application

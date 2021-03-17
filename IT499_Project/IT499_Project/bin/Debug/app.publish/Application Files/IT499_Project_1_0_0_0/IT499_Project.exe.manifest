@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="IT499_Project.exe" version="1.0.0.0" publicKeyToken="eb7019dafd6fab1a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IT499_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="IT499_Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IT499_Project.exe" size="32728">
+      <assemblyIdentity name="IT499_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>byvNExPWeYdKNvnmw++mEngjLSvvTY/Rienv3WcG6mA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IT499_Project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CELENA-LAPTOP\celen" issuerKeyHash="b6cbfb5b8aaaef1c49d6b4e2136e201c5e92195c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OU2AT6Yvi/ZKElZNWaqGgnNmpm7Y4i/oE6qJqELk6II=</DigestValue></Reference></SignedInfo><SignatureValue>slm0BCGWpxBblKNlUDzvOUDMCKPs5puf1SeUeSy+5H/nnBbYIdlTN8lGMG+leP9TX6iTv/vvXq0GJrCxZ5nYjYUindBkHbPHLQLew7Y4xImH3Qm1VqA++2cIbIE4ygz/Mi0IsoT182bXBcB216F+mrnv7oug06WEzRcCU5qnuoY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8/JuE+hrZuEyWRx1AoR54vn3/To/E7MbFirlHYh8/TMLmy0nCTN2EXLJZnKmDAnigt62TRl5g452JsomBO3TiZVwZpy3LqhVwvCyMwQ5N4Q5iPsx7cR2eE7ZuhZ6AaNyA3YWXanaYHTxKrPA7B+S2x5kk54oRc0RTN+9vwkOPqk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="82e8e442a889aa13e82fe2d86ea666738286aa594d56124af68b2fa64f804d39" Description="" Url=""><as:assemblyIdentity name="IT499_Project.exe" version="1.0.0.0" publicKeyToken="eb7019dafd6fab1a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CELENA-LAPTOP\celen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dR3INyrZTzYV1ERjf4Nh2YxYVpn33lt4WGKzOirOw+k=</DigestValue></Reference></SignedInfo><SignatureValue>1FzsgUIq5Yl8pjq9h/bKcrgZ+3TKQn803ZteL+ZwaU0FLWCJ0rufMScCYbDcOqDvyL+OihJZ89G8FFBjxvJMTSKFYZt9NYir3p0xxVvHhUhrkwCkaFDwkY+UKzSw6Z9gNU+UfgcJrOtSULrA2FwA1i67frb7oYtc3uBcfARsq9s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8/JuE+hrZuEyWRx1AoR54vn3/To/E7MbFirlHYh8/TMLmy0nCTN2EXLJZnKmDAnigt62TRl5g452JsomBO3TiZVwZpy3LqhVwvCyMwQ5N4Q5iPsx7cR2eE7ZuhZ6AaNyA3YWXanaYHTxKrPA7B+S2x5kk54oRc0RTN+9vwkOPqk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQYm3Yhg/WBJhHl+Hrm6OliDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAQwBFAEwARQBOAEEALQBMAEEAUABUAE8AUABcAGMAZQBsAGUAbjAeFw0xOTA4MDcxMTUzMjVaFw0yMDA4MDYxNzUzMjVaMDExLzAtBgNVBAMeJgBDAEUATABFAE4AQQAtAEwAQQBQAFQATwBQAFwAYwBlAGwAZQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDz8m4T6Gtm4TJZHHUChHni+ff9Oj8TsxsWKuUdiHz9MwubLScJM3YRcslmcqYMCeKC3rZNGXmDjnYmyiYE7dOJlXBmnLcuqFXC8LIzBDk3hDmI+zHtxHZ4Ttm6FnoBo3IDdhZdqdpgdPEqs8DsH5LbHmSTnihFzRFM372/CQ4+qQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJQYADDzRpHmum7wcjEOA1/CJxH5T2se9xLdpvfMdPgXQkijvwJ43njGBOkzpabZnxVCZww6CP4j8WkIOOGzIyLlpqTAKsC3SqdM9Gg90gM4P7o5QkewT2hLqO9BDR5X9XRZcr3+EoILtwO3j8XIUmz5+5zyA9ygfMrwb2KJVVgG</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
